@@ -1,0 +1,58 @@
+/* src/components/PetListSection.module.css */
+.petListSection {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .petGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .petCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fbbd05d7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .petCard:hover {
+    transform: scale(1.02);
+  }
+  
+  .petCard h3 {
+    text-align: center;
+    margin: 0;
+    color: #555;
+  }
+  
+  .petCard p {
+    margin: 0.5rem 0;
+    color: #666;
+  }
+  
+  .available {
+    color: green !important;
+    font-weight: bold;
+  }
+  
+  .unavailable {
+    color: red !important;
+    font-weight: bold;
+  }
+  
+  .adopted {
+    opacity: 0.6;
+    border-color: #ffcccc;
+  }
+  

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate, useParams } from "react-router-dom";
-import { buscarUsuarioPorId, editarUsuario, salvarUsuario } from "../services/apiService";
+import { buscarUsuarioPorId, editarUsuario, salvarUsuario } from "../services/ApiService.js";
 
 function UsuariosForm() {
   const { register, handleSubmit, reset } = useForm();
