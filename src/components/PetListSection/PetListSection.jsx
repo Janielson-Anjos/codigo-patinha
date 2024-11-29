@@ -82,10 +82,7 @@ const PetListSection = () => {
             className={`${styles.petCard} ${
               pet.status === "Adotado" ? styles.adopted : ""
             }`}
-<<<<<<< HEAD
             data-especie={pet.especie}
-=======
->>>>>>> refs/remotes/origin/adotante
           >
             <h3>{pet.nome}</h3>
             <p
@@ -118,8 +115,4 @@ const PetListSection = () => {
   );
 };
 
-<<<<<<< HEAD
 export default PetListSection;
-=======
-export default PetListSection;
->>>>>>> refs/remotes/origin/adotante
