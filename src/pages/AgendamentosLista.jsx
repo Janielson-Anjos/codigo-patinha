@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Modal } from "react-bootstrap";
-import { buscarAgendamentos, excluirAgendamento } from "../services/apiService";
+import { buscarAgendamentos, excluirAgendamento } from "../services/ApiService";
 
 function AgendamentosLista() {
   const [agendamentos, setAgendamentos] = useState([]);

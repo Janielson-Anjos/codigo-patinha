@@ -1,5 +1,5 @@
 import React from "react";
-import "./FeedbackSection.css";
+import "./FeedBackSection.css";
 import imgComentario1 from '../../assets/image/comentario1.png';
 import imgComentario2 from '../../assets/image/comentario2.png';
 import imgComentario3 from '../../assets/image/comentario3.png';

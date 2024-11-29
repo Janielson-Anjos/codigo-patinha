@@ -6,6 +6,7 @@ import HomeAdmin from "./pages/HomeAdmin";
 import AgendamentosForm from "./pages/AgendamentoForm";
 import AgendamentosLista from "./pages/AgendamentosLista";
 import LandingPage from "./pages/LandingPage";
+import LandingAdotante from "./pages/LandingAdotante";
 import LoginLandingPage from "./pages/Login";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/adotante" element={<LandingAdotante />} />
           <Route path="/login" element={<LoginLandingPage />} />
           <Route path="/cadastro" element={<LoginLandingPage />} />
           <Route path="/admin" element={<HomeAdmin />} />
