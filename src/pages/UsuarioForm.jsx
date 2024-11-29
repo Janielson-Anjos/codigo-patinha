@@ -1,7 +1,11 @@
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate, useParams } from "react-router-dom";
+<<<<<<< HEAD
 import { buscarUsuarioPorId, editarUsuario, salvarUsuario } from "../services/ApiService";
+=======
+import { buscarUsuarioPorId, editarUsuario, salvarUsuario } from "../services/ApiService.js";
+>>>>>>> refs/remotes/origin/adotante
 
 function UsuariosForm() {
   const { register, handleSubmit, reset } = useForm();

@@ -40,4 +40,8 @@ function NavBarLandingPage() {
   );
 }
 
+<<<<<<< HEAD
 export default NavBarLandingPage;
+=======
+export default NavBarLandingPage;
+>>>>>>> refs/remotes/origin/adotante

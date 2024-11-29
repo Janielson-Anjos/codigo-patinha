@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Modal } from "react-bootstrap";
+<<<<<<< HEAD
 import { buscarAgendamentos, excluirAgendamento } from "../services/ApiService";
+=======
+import { buscarAgendamentos, excluirAgendamento } from "../services/ApiService.js";
+>>>>>>> refs/remotes/origin/adotante
 
 function AgendamentosLista() {
   const [agendamentos, setAgendamentos] = useState([]);

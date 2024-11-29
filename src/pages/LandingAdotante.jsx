@@ -16,4 +16,8 @@ function LandingPage() {
   );
 }
 
+<<<<<<< HEAD
 export default LandingPage;
+=======
+export default LandingPage;
+>>>>>>> refs/remotes/origin/adotante

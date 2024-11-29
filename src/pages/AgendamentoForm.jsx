@@ -1,5 +1,9 @@
 import { useNavigate, useParams } from "react-router-dom";
+<<<<<<< HEAD
 import { buscarAgendamentoPorId, editarAgendamento, salvarAgendamento } from "../services/ApiService";
+=======
+import { buscarAgendamentoPorId, editarAgendamento, salvarAgendamento } from "../services/ApiService.js";
+>>>>>>> refs/remotes/origin/adotante
 import { useForm } from "react-hook-form";
 import { useEffect } from "react";
 import { format } from "date-fns";
