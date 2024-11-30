@@ -42,8 +42,7 @@ npm install
 Crie um arquivo .env na raiz do projeto e adicione as variáveis de ambiente necessárias, como o URL de conexão com o banco de dados e a porta do servidor. O conteúdo do arquivo .env deve ser semelhante ao exemplo abaixo, as informações do banco e back-end estao no seguinte repositorio - https://github.com/Janielson-Anjos/codigo-patinhas-api -
 
 ```env
-DATABASE_URL="postgresql://usuario:senha@localhost:5432/nome_do_banco"
-PORT=3000
+VITE_API_URL = http://localhost:3000/api/
 ```
 
 DATABASE_URL: URL de conexão com o PostgreSQL.
