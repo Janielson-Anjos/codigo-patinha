@@ -59,12 +59,6 @@ node serve.js
 
 O servidor será iniciado e estará disponível no endereço http://localhost:5173.
 
-### Endpoints
-A API principal está disponível em http://localhost:3000/api.
-- Endpoint de Adotantes - http://localhost:3000/api/usuario
-- Endpoint de Pet - http://localhost:3000/api/pet
-- Endpoint de Adocao - http://localhost:3000/api/adocao
-
 ### Estrutura do Projeto
 src/components/: Contém os componentes reutilizáveis da aplicação.
 src/pages/: Contém as páginas principais do projeto.
@@ -76,7 +70,7 @@ src/ProtectedRoute: Contém as proteções das rotas, das suas roles.
 ## Equipe
 
  | [Janielson Anjos da Silva](https://github.com/Janielson-anjos) |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
+| ------------- |
  | ![Janielson's Photo](https://avatars.githubusercontent.com/u/72242469?v=4) |
 
 ## Histórico de Versão
