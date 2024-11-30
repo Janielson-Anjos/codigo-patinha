@@ -45,15 +45,14 @@ Crie um arquivo .env na raiz do projeto e adicione as variáveis de ambiente nec
 VITE_API_URL = http://localhost:3000/api/
 ```
 
-DATABASE_URL: URL de conexão com o PostgreSQL.
-PORT: Porta onde o servidor será executado (opcional, padrão é 3000).
+VITE_API_URL: URL de conexão com o back-end.
 
 
 4. Inicie o Servidor de desenvolvimento
 Execute o comando abaixo para iniciar o servidor de desenvolvimento:
 
 ```bash
-node serve.js
+npm run dev
 ```
 
 O servidor será iniciado e estará disponível no endereço http://localhost:5173.
