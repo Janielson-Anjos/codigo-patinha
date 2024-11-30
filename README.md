@@ -8,8 +8,13 @@ Repositório destinado a armazenar e documentar o Front-end da solução desenvo
 
 - Vite
 - React.js
+- Axios
+- React-hook-form
+- React-router-dom
 - Component UI
 - Bootstrap
+- React-icons
+- React-scroll
 
 ## Execução 
 
