@@ -58,12 +58,12 @@ npm run dev
 O servidor será iniciado e estará disponível no endereço http://localhost:5173.
 
 ### Estrutura do Projeto
-src/components/: Contém os componentes reutilizáveis da aplicação.
-src/pages/: Contém as páginas principais do projeto.
-src/assets/: Recursos estáticos, como imagens.
-src/services/: Configuração para integração com APIs e back-end.
-src/contexts: Contém o contexto de autenticação.
-src/ProtectedRoute: Contém as proteções das rotas, das suas roles.
+- src/components/: Contém os componentes reutilizáveis da aplicação.
+- src/pages/: Contém as páginas principais do projeto.
+- src/assets/: Recursos estáticos, como imagens.
+- src/services/: Configuração para integração com APIs e back-end.
+- src/contexts: Contém o contexto de autenticação.
+- src/ProtectedRoute: Contém as proteções das rotas, das suas roles.
 
 ## Equipe
 
